@@ -1,6 +1,4 @@
-package edu.cris_rios.reto1.process;
-
-import java.util.Scanner;
+package edu.cris_rios.reto1_2.process;
 
 /**
  * Esta práctica sirve para realizar cálculos de masa corporal,
@@ -94,4 +92,5 @@ public class Calcula_IMC {
 
         return metabolismoBasal;
     }
+
 }

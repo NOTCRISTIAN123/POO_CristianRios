@@ -1,6 +1,6 @@
-package edu.cris_rios.reto1.ui;
+package edu.cris_rios.reto1_2.process.ui;
 
-import edu.cris_rios.reto1.process.Calcula_IMC;
+import edu.cris_rios.reto1_2.process.Calcula_IMC;
 
 import java.util.Scanner;
 
@@ -76,4 +76,5 @@ public class CLI {
             System.exit(0);
         }
     }
+
 }
