@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>CLI.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #5f826b; font-style: italic;}
+.s4 { color: #6aab73;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+CLI.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">edu</span><span class="s2">.</span><span class="s1">cris_rios</span><span class="s2">.</span><span class="s1">reto1_2</span><span class="s2">.</span><span class="s1">process</span><span class="s2">.</span><span class="s1">ui</span><span class="s2">;</span>
+
+<span class="s0">import </span><span class="s1">edu</span><span class="s2">.</span><span class="s1">cris_rios</span><span class="s2">.</span><span class="s1">reto1_2</span><span class="s2">.</span><span class="s1">process</span><span class="s2">.</span><span class="s1">Calcula_IMC</span><span class="s2">;</span>
+
+<span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Scanner</span><span class="s2">;</span>
+
+<span class="s3">/**</span>
+ <span class="s3">* Esta clase maneja la interacción con el usuario a través de la línea de comandos.</span>
+ <span class="s3">*/</span>
+<span class="s0">public class </span><span class="s1">CLI </span><span class="s2">{</span>
+
+    <span class="s3">/**</span>
+     <span class="s3">* Muestra el menú de opciones al usuario.</span>
+     <span class="s3">*/</span>
+    <span class="s0">public static void </span><span class="s1">showMenu</span><span class="s2">() {</span>
+        <span class="s3">/**</span>
+         <span class="s3">* Muestra el menú al usuario enumerando las opciones del 1 al 4.</span>
+         <span class="s3">* El usuario debe seleccionar una opción para realizar cálculos específicos.</span>
+         <span class="s3">*/</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Bienvenido :D&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Porfavor, escriba el número de la opción que desees&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;1. Índice de masa corporal&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;2. Masa corporal magra&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;3. Metabolismo basal&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;4. Salir de la aplicacion&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;______________________________&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;:)&quot;</span><span class="s2">);</span>
+    <span class="s2">}</span>
+
+    <span class="s3">/**</span>
+     <span class="s3">* Inicia la aplicación y gestiona la interacción con el usuario.</span>
+     <span class="s3">*/</span>
+    <span class="s0">public static void </span><span class="s1">launchApp</span><span class="s2">() {</span>
+        <span class="s3">/**</span>
+         <span class="s3">* Interactúa con el usuario según la opción seleccionada.</span>
+         <span class="s3">* - Opción 1: Calcula el índice de masa corporal (IMC).</span>
+         <span class="s3">* - Opción 2: Calcula la masa corporal magra.</span>
+         <span class="s3">* - Opción 3: Calcula el metabolismo basal.</span>
+         <span class="s3">* - Opción 4: Finaliza el programa.</span>
+         <span class="s3">* Se solicitan diferentes datos según la opción seleccionada.</span>
+         <span class="s3">* El programa se ejecuta según las operaciones esperadas.</span>
+         <span class="s3">*/</span>
+        <span class="s1">Scanner sc </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Scanner</span><span class="s2">(</span><span class="s1">System</span><span class="s2">.</span><span class="s1">in</span><span class="s2">);</span>
+        <span class="s1">showMenu</span><span class="s2">();</span>
+        <span class="s0">int </span><span class="s1">seleccion </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextInt</span><span class="s2">();</span>
+
+        <span class="s0">if </span><span class="s2">(</span><span class="s1">seleccion </span><span class="s2">== </span><span class="s5">1</span><span class="s2">) {</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingrese su altura en metros&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">altura </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingrese su peso en kilogramos&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">peso </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+            <span class="s0">double </span><span class="s1">imc </span><span class="s2">= </span><span class="s1">Calcula_IMC</span><span class="s2">.</span><span class="s1">Calcula_IMC</span><span class="s2">(</span><span class="s1">altura</span><span class="s2">, </span><span class="s1">peso</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Su IMC es: &quot; </span><span class="s2">+ </span><span class="s1">imc</span><span class="s2">);</span>
+        <span class="s2">} </span><span class="s0">else if </span><span class="s2">(</span><span class="s1">seleccion </span><span class="s2">== </span><span class="s5">2</span><span class="s2">) {</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingrese su sexo. (M para maculino y F para femenino)&quot;</span><span class="s2">);</span>
+            <span class="s0">char </span><span class="s1">sexo </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">next</span><span class="s2">().</span><span class="s1">charAt</span><span class="s2">(</span><span class="s5">0</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingrese su peso en kilogramos&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">peso </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingrese su altura en centímetros&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">altura </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+            <span class="s0">double </span><span class="s1">masaMasaMagra </span><span class="s2">= </span><span class="s1">Calcula_IMC</span><span class="s2">.</span><span class="s1">masaMagra</span><span class="s2">(</span><span class="s1">sexo</span><span class="s2">, </span><span class="s1">peso</span><span class="s2">, </span><span class="s1">altura</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Su masa magra es: &quot; </span><span class="s2">+ </span><span class="s1">masaMasaMagra</span><span class="s2">);</span>
+        <span class="s2">} </span><span class="s0">else if </span><span class="s2">(</span><span class="s1">seleccion </span><span class="s2">== </span><span class="s5">3</span><span class="s2">) {</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingrese su sexo&quot;</span><span class="s2">);</span>
+            <span class="s0">char </span><span class="s1">sexo </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">next</span><span class="s2">().</span><span class="s1">charAt</span><span class="s2">(</span><span class="s5">0</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingresa su peso en kilogramos&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">peso </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingresa su altura en centímetros&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">altura </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Ingresa su edad&quot;</span><span class="s2">);</span>
+            <span class="s0">int </span><span class="s1">edad </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextInt</span><span class="s2">();</span>
+            <span class="s0">double </span><span class="s1">metabolismoBasal </span><span class="s2">= </span><span class="s1">Calcula_IMC</span><span class="s2">.</span><span class="s1">metabolismoBasal</span><span class="s2">(</span><span class="s1">sexo</span><span class="s2">, </span><span class="s1">peso</span><span class="s2">, </span><span class="s1">altura</span><span class="s2">, </span><span class="s1">edad</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Su metabolismo basal es: &quot; </span><span class="s2">+ </span><span class="s1">metabolismoBasal</span><span class="s2">);</span>
+        <span class="s2">} </span><span class="s0">else if </span><span class="s2">(</span><span class="s1">seleccion </span><span class="s2">== </span><span class="s5">4</span><span class="s2">) {</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Finalizó el programa. Gracias por su atencion y preferencia respecto a nuestro programa&quot;</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">exit</span><span class="s2">(</span><span class="s5">0</span><span class="s2">);</span>
+        <span class="s2">}</span>
+    <span class="s2">}</span>
+<span class="s2">}</span></pre>
+</body>
+</html>
