@@ -76,5 +76,4 @@ public class CLI {
             System.exit(0);
         }
     }
-
 }

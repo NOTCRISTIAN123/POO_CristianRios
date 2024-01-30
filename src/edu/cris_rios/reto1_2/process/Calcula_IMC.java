@@ -92,5 +92,4 @@ public class Calcula_IMC {
 
         return metabolismoBasal;
     }
-
 }
