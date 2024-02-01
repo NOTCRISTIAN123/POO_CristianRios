@@ -56,7 +56,7 @@ public class CLI {
             char sexo = sc.next().charAt(0);
             System.out.println("Ingrese su peso en kilogramos");
             double peso = sc.nextDouble();
-            System.out.println("Ingrese su altura en centímetros");
+            System.out.println("Ingrese su altura en centímetros ");
             double altura = sc.nextDouble();
             double masaMasaMagra = Calcula_IMC.masaMagra(sexo, peso, altura);
             System.out.println("Su masa magra es: " + masaMasaMagra);
