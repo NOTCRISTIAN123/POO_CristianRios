@@ -1,4 +1,4 @@
-package edu.cris_rios.reto1_2.process;
+package edu.cris_rios.reto1.process;
 
 /**
  * Esta práctica sirve para realizar cálculos de masa corporal,
