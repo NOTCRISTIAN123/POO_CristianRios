@@ -1,6 +1,9 @@
 package edu.cris_rios.reto2.promedios.process;
 import java.util.Scanner;
 
+/**
+ * Se mada a llamar el documento y el escaner
+ */
 public class Calculadora_Prom {
 
     public void calculaPromedio() {
@@ -9,7 +12,9 @@ public class Calculadora_Prom {
         System.out.println("¿Cuántas materias desea calcular el promedio?");
         int numMaterias = scanner.nextInt();
         double[][] arregloProm = new double[numMaterias][2]; // arregloProm[i][0] para la calificación, arregloProm[i][1] para el peso
-
+/**
+ *Se crea el arreglo con el numero de materias
+ */
         for (int i = 0; i < numMaterias; i++) {
             System.out.println("Ingrese la calificación para la materia #" + (i + 1) + ": ");
             arregloProm[i][0] = scanner.nextDouble();
