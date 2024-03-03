@@ -7,3 +7,4 @@ public class Main {
         CLI.launchApp();
     }
 }
+
