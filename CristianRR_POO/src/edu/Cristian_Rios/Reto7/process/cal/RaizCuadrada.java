@@ -17,4 +17,3 @@ public class RaizCuadrada extends Resta {
     } // Aquí se espera el cierre del método calcular()
 
 } // Aquí se espera el cierre de la clase RaizCuadrada
-
