@@ -1,6 +1,6 @@
-package edu.Cristian_Rios.Reto7.process;
+package edu.Cristian_Rios.Reto7.process.cal;
 
-import edu.Cristian_Rios.Reto7.process.Resta;
+import edu.Cristian_Rios.Reto7.process.cal.Resta;
 
 public class Modulo extends Resta {
     public Modulo(float x, float y) {

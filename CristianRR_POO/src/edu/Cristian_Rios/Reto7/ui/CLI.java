@@ -2,6 +2,14 @@ package edu.Cristian_Rios.Reto7.ui;
 
 import java.util.Scanner;
 import edu.Cristian_Rios.Reto7.process.Calculadora;
+import edu.Cristian_Rios.Reto7.process.cal.Suma;
+import edu.Cristian_Rios.Reto7.process.cal.Resta;
+import edu.Cristian_Rios.Reto7.process.cal.Multiplicacion;
+import edu.Cristian_Rios.Reto7.process.cal.Potenciacion;
+import edu.Cristian_Rios.Reto7.process.cal.Divicion;
+import edu.Cristian_Rios.Reto7.process.cal.Modulo;
+import edu.Cristian_Rios.Reto7.process.cal.Logaritmo;
+import edu.Cristian_Rios.Reto7.process.cal.RaizCuadrada;
 
 public class CLI {
     public static void mostrarMenu() {
@@ -42,7 +50,7 @@ public class CLI {
                         calculadora.calcular(new Multiplicacion(x, y));
                         break;
                     case 4:
-                        calculadora.calcular(new Division(x, y));
+                        calculadora.calcular(new Divicion(x, y));
                         break;
                     case 5:
                         calculadora.calcular(new Modulo(x, y));
