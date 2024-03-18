@@ -1,6 +1,4 @@
-package edu.Cristian_Rios.Reto7.process;
-
-import edu.Cristian_Rios.Reto7.process.Multiplicacion;
+package edu.Cristian_Rios.Reto7.process.cal;
 
 public class Potenciacion extends Multiplicacion {
     public Potenciacion(float x, float y) {
