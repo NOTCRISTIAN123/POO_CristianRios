@@ -15,7 +15,7 @@ public class Divicion extends Resta {
                 resultado++;
                 x -= y;
             }
-            System.out.println("El resultado de la división es: " + resultado);
+            System.out.println(result + resultado);
         } else {
             System.out.println("No se puede dividir por cero.");
         }

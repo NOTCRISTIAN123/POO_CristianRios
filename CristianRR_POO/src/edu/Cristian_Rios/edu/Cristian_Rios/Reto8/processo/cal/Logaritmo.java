@@ -15,6 +15,6 @@ public class Logaritmo extends Resta {
             resultado++;
             temp -= y;
         }
-        System.out.println("El resultado del logaritmo es: " + resultado);
+        System.out.println(result + resultado);
     }
 }

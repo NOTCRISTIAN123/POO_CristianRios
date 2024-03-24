@@ -11,6 +11,6 @@ public class Potenciacion extends Multiplicacion {
         for (int i = 0; i < y; i++) {
             resultado *= x;
         }
-        System.out.println("El resultado de la potenciación es: " + resultado);
+        System.out.println(result + resultado);
     }
 }

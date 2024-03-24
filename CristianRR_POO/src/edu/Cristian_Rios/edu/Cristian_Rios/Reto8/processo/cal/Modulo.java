@@ -10,6 +10,6 @@ public class Modulo extends Resta {
     @Override
     public void calcular() {
         resultado = x % y;
-        System.out.println("El resultado del módulo es: " + resultado);
+        System.out.println(result + resultado);
     }
 }

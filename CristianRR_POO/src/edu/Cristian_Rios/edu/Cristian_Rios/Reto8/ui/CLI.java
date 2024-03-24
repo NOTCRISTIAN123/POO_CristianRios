@@ -1,41 +1,64 @@
 package edu.Cristian_Rios.Reto7.ui;
 
 import java.util.Scanner;
-import edu.Cristian_Rios.Reto7.process.Calculadora;
-import edu.Cristian_Rios.Reto7.process.cal.Suma;
-import edu.Cristian_Rios.Reto7.process.cal.Resta;
-import edu.Cristian_Rios.Reto7.process.cal.Multiplicacion;
-import edu.Cristian_Rios.Reto7.process.cal.Potenciacion;
-import edu.Cristian_Rios.Reto7.process.cal.Divicion;
-import edu.Cristian_Rios.Reto7.process.cal.Modulo;
-import edu.Cristian_Rios.Reto7.process.cal.Logaritmo;
-import edu.Cristian_Rios.Reto7.process.cal.RaizCuadrada;
+import edu.Cristian_Rios.Reto8.processo.Calculadora;
+import edu.Cristian_Rios.Reto8.processo.cal.Suma;
+import edu.Cristian_Rios.Reto8.processo.cal.Resta;
+import edu.Cristian_Rios.Reto8.processo.cal.Multiplicacion;
+import edu.Cristian_Rios.Reto8.processo.cal.Potenciacion;
+import edu.Cristian_Rios.Reto8.processo.cal.Divicion;
+import edu.Cristian_Rios.Reto8.processo.cal.Modulo;
+import edu.Cristian_Rios.Reto8.processo.cal.Logaritmo;
+import edu.Cristian_Rios.Reto8.processo.cal.RaizCuadrada;
+import edi.Cristian_Rios.Reto8.processo.cal.ENG
+import edi.Cristian_Rios.Reto8.processo.cal.ESP
 
 public class CLI {
     public static void mostrarMenu() {
+        Scanner scanner = new Scanner(System.in);
+        int languageChoice;
+        int operationChoice;
+        ResourceBundle messages;
+
+        // Pregunta al usuario por el idioma
+        System.out.println("¿Wich language?");
+        System.out.println("0. English");
+        System.out.println("1. Español");
+        languageChoice = scanner.nextInt();
+        // Cargar el archivo de propiedades correspondiente al idioma seleccionado
+        if (languageChoice == 0) {
+            messages = ResourceBundle.getBundle("edu.Cristian_Rios.Reto8.processo.doc.ENG");
+        } else {
+            messages = ResourceBundle.getBundle("edu.Cristian_Rios.Reto8.processo.doc.ESP");
+        }
+
+        // Mostrar el menú de operaciones
+        System.out.println(messages.getString("menu.title"));
+        System.out.println(messages.getString("menu.addition"));
+        // Otros mensajes...
         Scanner scanner = new Scanner(System.in);
         int opcion;
         float x, y;
 
         do {
-            System.out.println("Por favor, selecciona la operación que deseas hacer:");
-            System.out.println("1. Suma (Coloca un 1)");
-            System.out.println("2. Resta (Coloca un 2)");
-            System.out.println("3. Multiplicación (Coloca un 3)");
-            System.out.println("4. División (Coloca un 4)");
-            System.out.println("5. Modulo (Coloca un 5)");
-            System.out.println("6. Logaritmo (Coloca un 6)");
-            System.out.println("7. Potencia (Coloca un 7)");
-            System.out.println("8. Raíz (Coloca un 8)");
-            System.out.println("0. Salir");
-            System.out.print("Opción: ");
+            System.out.println(menu.tittle);
+            System.out.println(menu.addition);
+            System.out.println(menu.subtraction);
+            System.out.println(menu.multiplication);
+            System.out.println(menu.division);
+            System.out.println(menu.modulo);
+            System.out.println(menu.logarithm);
+            System.out.println(menu.power);
+            System.out.println(menu.squareRoot);
+            System.out.println(menu.exit);
+            System.out.print("Option: ");
 
             opcion = scanner.nextInt();
 
             if (opcion >= 1 && opcion <= 8) {
-                System.out.print("Ingresa el primer número: ");
+                System.out.print(input.firstNumber);
                 x = scanner.nextFloat();
-                System.out.print("Ingresa el segundo número: ");
+                System.out.print(input.secondNumber);
                 y = scanner.nextFloat();
 
                 Calculadora calculadora = new Calculadora();
@@ -73,6 +96,13 @@ public class CLI {
 
         } while (opcion != 0);
 
+        // Leer la opción de operación
+        operationChoice = scanner.nextInt();
+        // Implementa el resto de la lógica según la opción elegida
+        // Usa messages.getString("clave") para obtener los mensajes del archivo de propiedades
+        // según el idioma seleccionado
+
+        scanner.close();
         scanner.close();
     }
 }

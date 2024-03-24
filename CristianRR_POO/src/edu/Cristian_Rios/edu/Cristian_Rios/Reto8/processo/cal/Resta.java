@@ -10,6 +10,6 @@ public class Resta extends operacion_aritmetica {
     @Override
     public void calcular() {
         resultado = x - y;
-        System.out.println("El resultado de la resta es: " + resultado);
+        System.out.println(result + resultado);
     }
 }

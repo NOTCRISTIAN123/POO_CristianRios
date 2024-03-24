@@ -14,6 +14,6 @@ public class Multiplicacion extends Suma {
         for (int i = 0; i < veces; i++) {
             resultado += x;
         }
-        System.out.println("El resultado de la multiplicación es: " + resultado);
+        System.out.println(result + resultado);
     }
 }
