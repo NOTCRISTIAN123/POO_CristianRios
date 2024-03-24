@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85fbedf1-b484-4ea6-939c-303b42be608a" name="Changes" comment="kjhkj">
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/Divicion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/Logaritmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/Modulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/Multiplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/Potenciacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/RaizCuadrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/Resta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/cal/Suma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/processo/operacion_aritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto8/ui/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/Divicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/Divicion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/Logaritmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/Logaritmo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/Modulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/Multiplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/Multiplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/Potenciacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/Potenciacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/RaizCuadrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/RaizCuadrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/Resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/Resta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/cal/Suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/cal/Suma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/process/operacion_aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/process/operacion_aritmetica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reto7/ui/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu/Cristian_Rios/Reto7/ui/CLI.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../.." value="actividad4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dxGvl64ISG2tTpcf77TmNa7U2H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Reto8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lupita/IdeaProjects/POO_CristianRios/CristianRR_POO/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lupita\IdeaProjects\POO_CristianRios\CristianRR_POO\src\edu\Cristian_Rios\edu\Cristian_Rios\Reto8" />
+      <recent name="C:\Users\Lupita\IdeaProjects\POO_CristianRios\CristianRR_POO\src\edu\Cristian_Rios" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lupita\IdeaProjects\POO_CristianRios\CristianRR_POO\src\edu\Cristian_Rios\edu\Cristian_Rios" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85fbedf1-b484-4ea6-939c-303b42be608a" name="Changes" comment="" />
+      <created>1710942548414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710942548414</updated>
+    </task>
+    <task id="LOCAL-00001" summary="kjhkj">
+      <option name="closed" value="true" />
+      <created>1711037036811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711037036811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kjhkj" />
+    <option name="LAST_COMMIT_MESSAGE" value="kjhkj" />
+  </component>
+</project>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="605c8c5c-9889-4e10-8958-c0723996d7ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/Divicion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/Logaritmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/Modulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/Multiplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/Potenciacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/RaizCuadrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/Resta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/cal/Suma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/processo/operacion_aritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto8/ui/CLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/Divicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/Divicion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/Logaritmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/Logaritmo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/Modulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/Multiplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/Multiplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/Potenciacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/Potenciacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/RaizCuadrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/RaizCuadrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/Resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/Resta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/cal/Suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/cal/Suma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/process/operacion_aritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/process/operacion_aritmetica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/Cristian_Rios/Reto7/ui/CLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/Cristian_Rios/edu/Cristian_Rios/Reto7/ui/CLI.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NOTCRISTIAN123&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="715b80d4-8b2c-4ed4-990b-dc13643be882" />
+        <option name="url" value="https://github.com/NOTCRISTIAN123/POO_CristianRios.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2dxFB5aEyEY9cBFDXbkS603U6YZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Reto8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lupita/IdeaProjects/POO_CristianRios/CristianRR_POO&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CristianRR_POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CristianRR_POO" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="605c8c5c-9889-4e10-8958-c0723996d7ce" name="Changes" comment="" />
+      <created>1710941683984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710941683984</updated>
+    </task>
+    <servers />
+  </component>
+</project>
