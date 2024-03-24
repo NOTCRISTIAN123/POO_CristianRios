@@ -13,3 +13,4 @@ public class Modulo extends Resta {
         System.out.println(result + resultado);
     }
 }
+

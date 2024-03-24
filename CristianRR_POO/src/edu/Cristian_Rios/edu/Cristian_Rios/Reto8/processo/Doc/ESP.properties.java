@@ -14,3 +14,4 @@ menu.exit = Salir ("Coloca un 0")
 input.firstNumber = "Por favor, introduce el primer número":
 input.secondNumber = "Por favor, introduce el segundo número":
 result = Tu resultado es:
+

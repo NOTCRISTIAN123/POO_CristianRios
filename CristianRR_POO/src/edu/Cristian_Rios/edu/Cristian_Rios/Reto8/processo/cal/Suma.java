@@ -13,3 +13,4 @@ public class Suma extends operacion_aritmetica {
         System.out.println(result + resultado);
     }
 }
+

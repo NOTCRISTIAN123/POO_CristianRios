@@ -14,3 +14,4 @@ menu.exit = Exit (Enter 0)
 input.firstNumber = Please enter the first number:
 input.secondNumber = Please enter the second number:
 result = Your result is:
+

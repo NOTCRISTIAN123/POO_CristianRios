@@ -13,3 +13,4 @@ public class Resta extends operacion_aritmetica {
         System.out.println(result + resultado);
     }
 }
+

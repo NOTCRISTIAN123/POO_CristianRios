@@ -18,3 +18,4 @@ public class Logaritmo extends Resta {
         System.out.println(result + resultado);
     }
 }
+

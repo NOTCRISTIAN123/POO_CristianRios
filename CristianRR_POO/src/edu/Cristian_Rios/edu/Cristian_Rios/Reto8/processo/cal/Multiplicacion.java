@@ -17,3 +17,4 @@ public class Multiplicacion extends Suma {
         System.out.println(result + resultado);
     }
 }
+

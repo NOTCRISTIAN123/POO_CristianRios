@@ -14,3 +14,4 @@ public class Potenciacion extends Multiplicacion {
         System.out.println(result + resultado);
     }
 }
+
